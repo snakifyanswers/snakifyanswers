@@ -1,0 +1,57 @@
+h1 {
+    background-color: burlywood;
+    text-align: center;
+}
+.module-selector {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.module-selector > div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-image: linear-gradient(#B17461, #B17461);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;  
+}
+.module-selector > div:hover{
+    background-size: 100%, 100%;
+    color: #fff;
+}
+
+.lesson-selector {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(70, 110, 150);
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+.lesson-selector > div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-image: linear-gradient(#B17461, #B17461);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;  
+}
+.lesson-selector > div:hover{
+    background-size: 100%, 100%;
+    color: #fff;
+}
+ 
