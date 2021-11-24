@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 h1 {
     background-color: burlywood;
     text-align: center;
@@ -16,7 +21,7 @@ h1 {
     margin: 10px;
     text-align: center;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     background-image: linear-gradient(#B17461, #B17461);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -43,7 +48,7 @@ h1 {
     margin: 10px;
     text-align: center;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     background-image: linear-gradient(#B17461, #B17461);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -53,5 +58,8 @@ h1 {
 .lesson-selector > div:hover{
     background-size: 100%, 100%;
     color: #fff;
+}
+.answerDiv{
+    margin-top: 10px;
 }
  

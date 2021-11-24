@@ -1,36 +1,85 @@
-var isDisplaying = false
+var isDisplayingLesson = false;
+var isDisplayingAnswer = false;
 var currentModule = 0;
+var currentAnswer = 0;
 
-function createModule1(){
-    if(isDisplaying){
+function createModule(num){
+    if(isDisplayingLesson && currentModule == num){
         var lessonSelector = document.getElementById("lesson-selector");
         lessonSelector.remove();
-        isDisplaying = false;
+        var answerDiv = document.getElementById("answerDiv");
+        if(answerDiv != null){
+            answerDiv.remove();
+        }
+        isDisplayingLesson = false;
+        isDisplayingAnswer = false;
+        currentAnswer = 0;
+        currentModule = num;
+    }else if(isDisplayingLesson && currentModule != num){
+        var lessonSelector = document.getElementById("lesson-selector");
+        lessonSelector.remove();
+        var answerDiv = document.getElementById("answerDiv");
+        if(answerDiv != null){
+            answerDiv.remove();
+        }
+        isDisplayingLesson = false;
+        isDisplayingAnswer = false;
         currentModule = 0;
-    } else{
+        currentAnswer = 0;
+        createModule(num);
+        return;
+    }
+    else{
         var lessonSelector = document.createElement("div");
         lessonSelector.classList.add("lesson-selector")
         lessonSelector.id = "lesson-selector";
 
-        createLesson(lessonSelector, "Sum of three numbers", "2d526d30bfdaddc3b1853f96456e0947")
+        switch(num){
+            case 1:
+                createLesson(lessonSelector, "Sum of three numbers", "2d526d30bfdaddc3b1853f96456e0947",0);
+                createLesson(lessonSelector, "Hi John", "2c0d54de9f97b7afb8f8781b92b96cea",1);
+                createLesson(lessonSelector, "Square", "c0f7a581927c06c0db43d904d61d1ea7",2);
+                break;
+            case 2:
+                createLesson(lessonSelector, "Example 2","bd10e846c6eae4419c3041f3da1b82a0",0);
+                break;
+            }
+
+
         var main = document.getElementById("main");
         main.appendChild(lessonSelector);
-        isDisplaying = true;
-        currentModule = 1;
+        isDisplayingLesson = true;
+        currentModule = num;
     }
 }
 
-function createLesson(lessonSelector, text, gistId){
+function createLesson(lessonSelector, text, gistId = "bd10e846c6eae4419c3041f3da1b82a0", id=-1){
     var lessonDiv = document.createElement("div");
     lessonDiv.innerText = text;
-    lessonDiv.onclick = function(){
-        createGist(gistId);
+    lessonDiv.id = id;
+    lessonDiv.onclick = function() {
+        createGist(gistId, id);
+        
     }
     lessonSelector.appendChild(lessonDiv);
 }
 
-function createGist(gistId = "bd10e846c6eae4419c3041f3da1b82a0"){
-    var script = document.createElement("script");
-    script.src = "https://gist.github.com/snakifyanswers/" + gistId + ".js";
-    document.body.appendChild(script)    
+function createGist(gistId = "bd10e846c6eae4419c3041f3da1b82a0", id = -1){
+    if(isDisplayingAnswer && id == currentAnswer){
+        var answerDiv = document.createElement("div");
+        answerDiv.remove();
+        return;
+    } else if(isDisplayingAnswer && id != currentAnswer){
+        var answerDiv = document.getElementById("answerDiv");
+        answerDiv.remove();
+    }
+    var answerDiv = document.createElement("div");
+    answerDiv.classList.add("answerDiv");
+    answerDiv.id = "answerDiv";
+    document.body.appendChild(answerDiv);
+    
+    postscribe(answerDiv, "<script src=\"https://gist.github.com/snakifyanswers/" + gistId + ".js\"></script>");
+
+    isDisplayingAnswer = true;
+    currentAnswer = id;
 }
