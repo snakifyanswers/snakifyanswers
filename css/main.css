@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 h1 {
-    background-color: burlywood;
+    text-decoration: underline;
     text-align: center;
 }
 .module-selector {
@@ -26,7 +26,9 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
-    transition: background-size .5s, color .5s;  
+    transition: background-size .5s, color .5s;
+    border: crimson;
+    border-style: inset;
 }
 .module-selector > div:hover{
     background-size: 100%, 100%;

@@ -39,6 +39,8 @@ function createModule(num){
                 createLesson(lessonSelector, "Sum of three numbers", "2d526d30bfdaddc3b1853f96456e0947",0);
                 createLesson(lessonSelector, "Hi John", "2c0d54de9f97b7afb8f8781b92b96cea",1);
                 createLesson(lessonSelector, "Square", "c0f7a581927c06c0db43d904d61d1ea7",2);
+                createLesson(lessonSelector, "Area of right-angled triangle", "8cb0083a4b07d098db5b49ee4b4359c0", 3);
+                createLesson(lessonSelector, "Hello, Harry!", "68b6a68f0615f2c4ba640934ddeac8d8", 4);
                 break;
             case 2:
                 createLesson(lessonSelector, "Example 2","bd10e846c6eae4419c3041f3da1b82a0",0);
