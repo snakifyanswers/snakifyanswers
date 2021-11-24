@@ -41,6 +41,10 @@ function createModule(num){
                 createLesson(lessonSelector, "Square", "c0f7a581927c06c0db43d904d61d1ea7",2);
                 createLesson(lessonSelector, "Area of right-angled triangle", "8cb0083a4b07d098db5b49ee4b4359c0", 3);
                 createLesson(lessonSelector, "Hello, Harry!", "68b6a68f0615f2c4ba640934ddeac8d8", 4);
+                createLesson(lessonSelector, "Apple sharing", "0f2c17cea733fe88d1bc6d270af7f38c", 5);
+                createLesson(lessonSelector, "Previous and next", "99ad92fa38e7b9eaf711c8b58b5bec37", 6)
+                createLesson(lessonSelector, "Two timestamps", "c6cb076c96e3c5615e741c6fbaddda82", 7);
+                createLesson(lessonSelector, "School desks", "c0238adf693a63a5ba77dd4c9966c5f7", 8);
                 break;
             case 2:
                 createLesson(lessonSelector, "Example 2","bd10e846c6eae4419c3041f3da1b82a0",0);
