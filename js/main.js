@@ -71,7 +71,21 @@ function createModule(num){
                createLesson(lessonSelector, "Knight move", "fa0a5a01146543321fb0d391e21d06c5", 9);
                createLesson(lessonSelector, "Chocolate bar", "637ced3d3a9caf9115064258b05771f7", 10);
                createLesson(lessonSelector, "Leap year", "0e466d9dc0bdc06a72fa2df9cd0497b7", 11);
-            }
+               break;
+            case 4:
+                createLesson(lessonSelector, "Series - 1", "e209476a0ea1c482ce027833a65b4291", 0);
+                createLesson(lessonSelector, "Series - 2", "959254291d9454f70ba78d7b98313376", 1);
+                createLesson(lessonSelector, "Sum of ten numbers", "be18f6f5f6a732bcbc3737c94ef98fa9", 2);
+                createLesson(lessonSelector, "Sum of N numbers", "b40a6c50bf52da92c191f2c19da66f4e", 3);
+                createLesson(lessonSelector, "Sum of cubes", "f4928734bc7f843b4170d02e70c2d705", 4);
+                createLesson(lessonSelector, "Factorial", "ae1fec70ccbae1b88e06c5350d22ff1f", 5);
+                createLesson(lessonSelector, "The number of zeros", "068dfb17f2d0748cd433299b773d3d75", 6);
+                createLesson(lessonSelector, "Adding factorials", "961e7f045b254524f8c8a3d22638f71e", 7);
+                createLesson(lessonSelector, "Ladder", "5b246a966692451481c05c3cbe598169", 8);
+                createLesson(lessonSelector, "Lost card", "6f5d92ec45c3f6f89163c4badc9ecf98", 9);
+                break;
+                }
+            
 
 
         var main = document.getElementById("main");
