@@ -58,6 +58,19 @@ function createModule(num){
                 createLesson(lessonSelector, "Clock face - 1", "256dddcba28362aa2a3307791cf2a8b3", 8);
                 createLesson(lessonSelector, "Clock face - 2", "8b888e4833bee0828e3b00040b8c8c9f");
                 break; 
+            case 3:
+               createLesson(lessonSelector, "Minimum of two numbers", "2be5b6a98fc2ccf93e85a3276348881f", 0);
+               createLesson(lessonSelector, "Sign function", "5452f6103c0484b07715df3ea08a3eb0", 1);
+               createLesson(lessonSelector, "Minimum of three numbers", "189226775bfcafea60f557a22c0fa6b9", 2);
+               createLesson(lessonSelector, "Equal numbers", "c7158e4c20be228ceadc5455d8b67d47", 3);
+               createLesson(lessonSelector, "Rook Move", "a2b5e67c61ff92312956bb7eeca6e6c9", 4);
+               createLesson(lessonSelector, "Chess board - same color", "47ad6d691966a459b035de1e69a512ec", 5);
+               createLesson(lessonSelector, "King move", "44d8ab817a323c957b7dd292323e69d3", 6);
+               createLesson(lessonSelector, "Bishop moves", "c545a7e6ce6f88155a349706c3839b77", 7);
+               createLesson(lessonSelector, "Queen move", "67ac272e3bfbffd471fed54d9ad650fd", 8);
+               createLesson(lessonSelector, "Knight move", "fa0a5a01146543321fb0d391e21d06c5", 9);
+               createLesson(lessonSelector, "Chocolate bar", "637ced3d3a9caf9115064258b05771f7", 10);
+               createLesson(lessonSelector, "Leap year", "0e466d9dc0bdc06a72fa2df9cd0497b7", 11);
             }
 
 
