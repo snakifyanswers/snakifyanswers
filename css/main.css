@@ -29,6 +29,12 @@ h1 {
     transition: background-size .5s, color .5s;
     border: crimson;
     border-style: inset;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 .module-selector > div:hover{
     background-size: 100%, 100%;
@@ -55,7 +61,15 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
-    transition: background-size .5s, color .5s;  
+    transition: background-size .5s, color .5s; 
+    border: rgb(94, 82, 255);
+    border-style: dotted; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 .lesson-selector > div:hover{
     background-size: 100%, 100%;
