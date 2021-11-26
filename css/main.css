@@ -7,6 +7,9 @@ h1 {
     text-decoration: underline;
     text-align: center;
 }
+body{
+    overflow: hidden;
+}
 .module-selector {
     display: flex;
     flex-wrap: wrap;
