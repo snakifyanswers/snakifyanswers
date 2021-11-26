@@ -115,6 +115,22 @@ function createModule(num){
                 createLesson(lessonSelector, "Fibonacci numbers \n", "c76e44287e3532486cb682cd41d7061b", 13);
                 createLesson(lessonSelector, "The index of a Fibonacci number", "8c7bcbc0585fe08c6375973fc3e9e7e1", 14);
                 createLesson(lessonSelector, "The maximum number of consecutive equal elements", "85e0c14c78f9aac02cc08a649cfc01f9", 15);
+                break;
+            case 7:
+                createLesson(lessonSelector, "Even indices", "27ac68985b93059342e5751cff76314b", 0);
+                createLesson(lessonSelector, "Even elements", "4bff04c288ee6ed16b7b12057027a2ae", 1);
+                createLesson(lessonSelector, "Greater than previous", "ebf7f52dae48a71c781c11ea3fbff2d4", 2);
+                createLesson(lessonSelector, "Neighbours of the same sign", "160950f3831c02e0c9ce7c642c49dd63", 3);
+                createLesson(lessonSelector, "Greater than neighbours", "5ee42424418794af4a87165e6f99f9aa", 4);
+                createLesson(lessonSelector, "The largest element", "bd99859b9b6d3d6eb34acd30436f77dd", 5);
+                createLesson(lessonSelector, "The number of distinct elements", "f100376cabb490cabeda7896e304c58c", 6);
+                createLesson(lessonSelector, "Swap neighbours", "31d1dd732fb7ce38d2136db0d21c5865", 7);
+                createLesson(lessonSelector, "Swap min and max", "293de38ccbc27f2dfce6f13c0a9a0038", 8);
+                createLesson(lessonSelector, "The number of pairs of equal", "41fc7d911acfbe14cec9d48ca403cc00", 9);
+                createLesson(lessonSelector, "Unique elements", "75511398074f0e4e9eda9ab79bb3c0bc", 10);
+                createLesson(lessonSelector, "Queens", "364432fcd6643786b15d6dc63868a696", 11);
+                createLesson(lessonSelector, "The bowling alley", "2fb0840b6b43ec5f974e9199ca18008b", 12);
+                break;
                 }
             
 
