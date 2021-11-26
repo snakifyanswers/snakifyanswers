@@ -97,6 +97,24 @@ function createModule(num){
                 createLesson(lessonSelector, "Delete a character", "3aff79c87c40de7b20abb6ac468eb6c8", 9);
                 createLesson(lessonSelector, "Replace within the fragment", "ad3a4588694a8bb6a4610677e1541f99", 10);
                 createLesson(lessonSelector, "Delete every third character", "097980beb2544cc66bb98669d96aa25b", 11);
+                break;
+            case 6:
+                createLesson(lessonSelector, "List of squares", "ce3e74c8863cecbe2f8823bebf7db90b", 0);
+                createLesson(lessonSelector, "Least divisor", "29fac93ea94b9290a0b4a9a79b6b9352", 1);
+                createLesson(lessonSelector, "The power of two", "5e0c6c8c5960b38c3ef1db18b8ed95b2", 2);
+                createLesson(lessonSelector, "Morning jog", "c18aada603a3b1b6a707a6897ff8d175", 3);
+                createLesson(lessonSelector, "The length of the sequence", "239a2f10d00c6d1828e2ae99a55da7f7", 4);
+                createLesson(lessonSelector, "The sum of the sequence", "17a790a16c3ada697219099fa41efb10", 5)
+                createLesson(lessonSelector, "The average of the sequence", "e8d5fc1ba2d64051aa77b92cfba8e387", 6);
+                createLesson(lessonSelector, "The maximum of the sequence", "ca08ee254e0513b46b1ff913695692b7", 7);
+                createLesson(lessonSelector, "The index of the maximum of a sequence", "19036e927ce895e08ee76bb40ecae9a5",8);
+                createLesson(lessonSelector, "The number of even elements of the sequence", "719296df685d9943ae69caa77b7a7d59", 9);
+                createLesson(lessonSelector, "The number of elements that are greater than the previous one", "030d9e0d855d47397a28d52cafc3cc2d", 10);
+                createLesson(lessonSelector, "The second maximum", "e17d6ab2c4d3d709154624f237d687a9", 11);
+                createLesson(lessonSelector, "The number of elements equal to the maximum", "315106136d85acfcb10fd7cf8ee0913a", 12);
+                createLesson(lessonSelector, "Fibonacci numbers \n", "c76e44287e3532486cb682cd41d7061b", 13);
+                createLesson(lessonSelector, "The index of a Fibonacci number", "8c7bcbc0585fe08c6375973fc3e9e7e1", 14);
+                createLesson(lessonSelector, "The maximum number of consecutive equal elements", "85e0c14c78f9aac02cc08a649cfc01f9", 15);
                 }
             
 
