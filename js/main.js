@@ -84,6 +84,19 @@ function createModule(num){
                 createLesson(lessonSelector, "Ladder", "5b246a966692451481c05c3cbe598169", 8);
                 createLesson(lessonSelector, "Lost card", "6f5d92ec45c3f6f89163c4badc9ecf98", 9);
                 break;
+            case 5:
+                createLesson(lessonSelector, "Slices", "23054bb01e6d0d63531567230d94f01c", 0)
+                createLesson(lessonSelector, "The number of words", "cf1e044cebbeabbc1b48c8dfa6331c7f", 1);
+                createLesson(lessonSelector, "The two halves", "da3371da3cd322b504217c12ee4e6cd9", 2);
+                createLesson(lessonSelector, "To swap the two words", "8c2687bda9737cf9f632fff8c99a135d", 3);
+                createLesson(lessonSelector, "The first and last occurrence", "45111f7b60ee3de8b46471e37feab033", 4);
+                createLesson(lessonSelector, "The second occurrence", "28646e7835d88f2e2d3d7b545adceae4", 5);
+                createLesson(lessonSelector, "Remove the fragment", "bf9e17902e2b093e663aea95cf663c87", 6);
+                createLesson(lessonSelector, "Reverse the fragment", "3a1ef98691d2a5997472815fb9e10374", 7);
+                createLesson(lessonSelector, "Replace the substring", "9cda70ae48b0d3085739e9a96c9beeff", 8);
+                createLesson(lessonSelector, "Delete a character", "3aff79c87c40de7b20abb6ac468eb6c8", 9);
+                createLesson(lessonSelector, "Replace within the fragment", "ad3a4588694a8bb6a4610677e1541f99", 10);
+                createLesson(lessonSelector, "Delete every third character", "097980beb2544cc66bb98669d96aa25b", 11);
                 }
             
 
@@ -103,6 +116,7 @@ function createLesson(lessonSelector, text, gistId = "bd10e846c6eae4419c3041f3da
         createGist(gistId, id);
         
     }
+    //console.info(document.getElementById("lesson-selector"));
     lessonSelector.appendChild(lessonDiv);
 }
 
