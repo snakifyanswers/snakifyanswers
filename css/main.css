@@ -3,6 +3,11 @@
     font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+body::-webkit-scrollbar{
+    display: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
 h1 {
     text-decoration: underline;
     text-align: center;
