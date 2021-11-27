@@ -131,6 +131,14 @@ function createModule(num){
                 createLesson(lessonSelector, "Queens", "364432fcd6643786b15d6dc63868a696", 11);
                 createLesson(lessonSelector, "The bowling alley", "2fb0840b6b43ec5f974e9199ca18008b", 12);
                 break;
+            case 8:
+                createLesson(lessonSelector, "The length of the segment", "be8b7c8937ede5600d3a4dc5b9866f93", 0);
+                createLesson(lessonSelector, "Negative exponent", "4fa461aaec490caccf8a72d5fa24894b", 1);
+                createLesson(lessonSelector, "Uppercase", "f800a52feb7c33cb0fb747bd8b4f7820", 2);
+                createLesson(lessonSelector, "Exponentiation", "e53884eed8042dbb2771ed07f2bf2ed2", 3);
+                createLesson(lessonSelector, "Reverse the sequence", "7b2c9c3456f13cc00b1a02c24c59825a", 4);
+                createLesson(lessonSelector, "Fibonacci numbers", "23c7c45d16c2c50ca67a0e8a525dda7c", 5);
+                break;
                 }
             
 
