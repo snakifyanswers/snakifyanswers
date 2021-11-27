@@ -149,6 +149,16 @@ function createModule(num){
                 createLesson(lessonSelector, "Scale a matrix", "1f4c7f3de8da7c33c3a8d7740758bfc2", 6);
                 createLesson(lessonSelector, "Multiply two matricies", "1e62bed7a6c0295b4e8cc63d2256407d", 7);
                 break;
+            case 10:
+                createLesson(lessonSelector, "The number of distinct numbers", "b44d1f3c88682d7fe9697ac94ac84827", 0);
+                createLesson(lessonSelector, "The number of equal numbers", "129c00cdd40c640c460b4b4a56af72f9", 1);
+                createLesson(lessonSelector, "The intersection of sets", "49eeee73d14c414a5564eb09f4fe4223", 2);
+                createLesson(lessonSelector, "Has the number been encountered before", "6fae16f3480fda758f290b9375759cae", 3);
+                createLesson(lessonSelector, "Cubes", "f644b73143f3c8734bce92a9eb86ecc7", 4);
+                createLesson(lessonSelector, "The number of distinct words in some text", "73c6f9a756fcc3437a65cbe75ef19a8f", 5);
+                createLesson(lessonSelector, "Guess the number", "c8987785e00fb09788ec343cad5891f5", 6);
+                createLesson(lessonSelector, "Polyglots", "b9f2e2208da33b06d0a24b3751f3a657", 7);
+                break;
                 }
             
 
