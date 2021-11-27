@@ -139,6 +139,16 @@ function createModule(num){
                 createLesson(lessonSelector, "Reverse the sequence", "7b2c9c3456f13cc00b1a02c24c59825a", 4);
                 createLesson(lessonSelector, "Fibonacci numbers", "23c7c45d16c2c50ca67a0e8a525dda7c", 5);
                 break;
+            case 9:
+                createLesson(lessonSelector, "Maximum", "1c6d48f616d8567672d8027d73c65a4a", 0);
+                createLesson(lessonSelector, "Snowflake", "aa8b8b384bf63fa970656a73429e8c0c", 1);
+                createLesson(lessonSelector, "Chess board", "90c0345cd3505686fada2caa5f20ced7", 2);
+                createLesson(lessonSelector, "The diagonal parallel to the main", "0f328d93aa48c318db5d4a56a30cc7a9", 3);
+                createLesson(lessonSelector, "Side diagonal", "6c461dce662fef2981a96e4cff189e7b", 4);
+                createLesson(lessonSelector, "Swap the columns", "f866aae9b6f9eff26d48837be9cf8094", 5);
+                createLesson(lessonSelector, "Scale a matrix", "1f4c7f3de8da7c33c3a8d7740758bfc2", 6);
+                createLesson(lessonSelector, "Multiply two matricies", "1e62bed7a6c0295b4e8cc63d2256407d", 7);
+                break;
                 }
             
 
