@@ -159,6 +159,16 @@ function createModule(num){
                 createLesson(lessonSelector, "Guess the number", "c8987785e00fb09788ec343cad5891f5", 6);
                 createLesson(lessonSelector, "Polyglots", "b9f2e2208da33b06d0a24b3751f3a657", 7);
                 break;
+            case 11:
+                createLesson(lessonSelector, "Number of occurrences", "2e0f302fa7134bd003f164548f699f52", 0);
+                createLesson(lessonSelector, "Dictionary of synonyms", "6c0c84e244578a064990f868dc418ee6", 1);
+                createLesson(lessonSelector, "Elections in the USA", "534eee73b079bc88255b86f01d78dd8b", 2);
+                createLesson(lessonSelector, "The most frequent word", "261c0329b40e36fe7909c88cf62cb167",3);
+                createLesson(lessonSelector, "Access rights", "62ab8c29e722642146fe11fc7b01f28c", 4);
+                createLesson(lessonSelector, "Countries and cities", "78433d5cf49f940220f9c6cefb5a7ab9", 5);
+                createLesson(lessonSelector, "Frequency analysis", "eb786e81fd31159b52a8ba568a78c37d", 6);
+                createLesson(lessonSelector, "English-Latin dictionary", "9c89029bd48ac503eec63026a7cc742d", 7);
+                break;
                 }
             
 
